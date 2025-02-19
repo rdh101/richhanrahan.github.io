@@ -1,0 +1,27 @@
+.banner {
+
+    background-color: khaki;
+    text-align: center;
+    margin-top: 75 ;
+    padding: 100px 
+
+    }
+
+#smallBob {
+        height: 100px;
+        width: 100px;
+    }
+
+#bobheader {
+    font-size: 100px;
+    font-stretch: 100%;
+    text-align: left;
+    color: khaki;
+    padding: 0px;
+    
+       
+}
+
+.bold {
+    font-weight: 900;
+}
