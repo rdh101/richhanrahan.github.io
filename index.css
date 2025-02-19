@@ -4,26 +4,26 @@
 
 .banner {
 
-    background-color: black;
-    text-align: center;
-    padding: 100px 
-    color: white;
+    background-color:black;
+    text-align:center;
+    padding:100px 
+    color:white;
 
     }
 
 #smallBob {
-        height: 200px;
-        width: 200px;
-        background-color: black;
+        height:200px;
+        width:200px;
+        background-color:black;
         color:white;
     }
 
 #bobheader {
-    font-size: 100px;
-    font-stretch: 100%;
-    text-align: left;
-    color: white;
-    padding: 0px;
+    font-size:100px;
+    font-stretch:100%;
+    text-align:left;
+    color:white;
+    padding:0px;
     
        
 }
