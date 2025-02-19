@@ -1,22 +1,28 @@
+* {
+    color:white;
+}
+
 .banner {
 
-    background-color: khaki;
+    background-color: black;
     text-align: center;
     padding: 100px 
+    color: white;
 
     }
 
 #smallBob {
         height: 200px;
         width: 200px;
-        background-color: khaki;
+        background-color: black;
+        color:white;
     }
 
 #bobheader {
     font-size: 100px;
     font-stretch: 100%;
     text-align: left;
-    color: khaki;
+    color: white;
     padding: 0px;
     
        
