@@ -2,6 +2,13 @@
 
 <body>
   <header>
+      <!--banner section -->
+    <div class="banner">
+        <h1>Spongebob Squarepants</h1>
+        <p>Possibly the greatest cartoon character since Mickey Mouse. Spongebob has won the worlds heart!</p>
+        <img id="smallBob" src="./resources/images/spongebob2.png" alt="Mr Spongebob himself">
+        <p>When he speaks, the world listens!</p>
+        <button>Hit this Button if you love Spongebob</button>
   <h1>Rich Hanrahan</h1>
   <p><b>Welcome to my website!</b><i>(another one)</i></p>
   <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXM1M3FydmU1NGRwZTg5ZTQ4MDNpMWwwdzY2dXpxenEwcWlmbHQ2MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/82wZnyJT2PkHWDCzZt/giphy.gif" />
@@ -10,6 +17,11 @@
     <h2>Purveyor of SEO<h2>
       <p>SEO for the win!</p>      
     </main>
-  
+      <!-- JavaScript to handle History API -->
+    <script>
+        document.querySelector('button').addEventListener('click', () => {
+            window.history.pushState({}, '', '/spongebobforever');
+        });
+    </script>
 </body>
 </html>
