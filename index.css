@@ -2,14 +2,13 @@
 
     background-color: khaki;
     text-align: center;
-    margin-top: 75 ;
     padding: 100px 
 
     }
 
 #smallBob {
-        height: 400px;
-        width: 400px;
+        height: 200px;
+        width: 200px;
         background-color: khaki;
     }
 
